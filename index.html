@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image"
+        content="http://github.com/gpdnjs110415/codebakeryweb/blob/master/image/codebakeryog.png" />
+    <meta property="og:image:width" content="400" />
+    <meta property="og:image:height" content="300" />
+    <title>코드베이커리</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="//code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/25db3b04f4.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="loading">
+    </div>
+    <nav>
+        <div class="nav-container">
+            <a href="index.html"><img id="logo" src="./image/logo-white.png" alt=""></a>
+
+            <div class="nav-text">
+                <a href="#" id="introduce"><span>소개</span></a>
+                <a href="active.html" id="activity"><span>활동</span></a>
+                <a href="member.html"><span>동아리원</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="main-img">
+            <img src="./image/chefhat.png" alt="">
+            <img src="./image/coven.png" alt="">
+            <img src="./image/arduino.png" alt="">
+        </div>
+        <div class="main-text">
+            <span id="smalltext">&nbsp가르침을 코딩하다!</span>
+            <span id="bigtext">코드베이커리</span>
+        </div>
+        <img id="triangle" src="./image/triangle.png" alt="">
+    </div>
+
+    <div class="number-info">
+        <div class="number-info-text">
+            <span class="title" id="year">2015년</span>
+            <span class="info">부터 활동해 온 장수 동아리</span>
+        </div>
+        <div class="number-info-text">
+            <span class="title" id="person">54명<br></span>
+            <span class="info">1년 동안 가르친 학생 수</span>
+            <span class="info" id="verysmalltext">(2019년 기준)</span>
+        </div>
+        <div class="number-info-text">
+            <span class="title" id="percent">99%</span>
+            <span class="info">수강 학생들의 만족도</span>
+        </div>
+    </div>
+
+    <div class="codebakery-info" id="codebakery-info">
+        <img src="./image/codebakeryinfoimg.png" alt="">
+
+        <div class="codebakery-info-container">
+            <div class="activity-title">
+                <p class="activity-titleText">코드베이커리는</p>
+            </div>
+        </div>
+        <div class="codebakery-info-text-container">
+            <p class="codebakery-info-text">코드베이커리는 &nbsp;<span>한국디지털미디어고등학교 교내 유일 코딩 교육 동아리</span>&nbsp;입니다.<br>
+                코드베이커리 &nbsp;<span>자체 제작 커리큘럼</span>&nbsp;으로 청소년수련관과 협력하여<br>교육이 필요한 아이들에게 &nbsp;<span>무료로
+                    코딩교육</span>&nbsp;을 해주며,<br>
+                &nbsp;<span>아두이노 교육 키트를 제작 & 판매</span>&nbsp;합니다.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="activity">
+
+        <div class="activity-container">
+            <div class="activity-title banner">
+                <p class="activity-titleText banner">그동안의 활동</p>
+            </div>
+            <div class="activity-article">
+                <div class="activity-articleContainer">
+                    <img src="./image/first-edu.png" class="activity-articleImg">
+                    <div class="activity-articleText">
+                        <span>#소사 #청소년수련관</span><br>
+                        <span>#아두이노로_피아노_만들기</span>
+                    </div>
+                </div>
+
+                <div class="activity-articleContainer">
+                    <img src="./image/ide.png" class="activity-articleImg">
+                    <div class="activity-articleText">
+                        <span>#코드베이커리 #IDE</span><br>
+                        <span>#아두이노_소프트웨어</span>
+                    </div>
+                </div>
+
+                <div class="activity-articleContainer">
+                    <img src="./image/ytb.png" class="activity-articleImg">
+                    <div class="activity-articleText">
+                        <span>#코드베이커리_유튜브</span><br>
+                        <span>#구독 #좋아요</span>
+                    </div>
+                </div>
+            </div>
+            <a href="./active.html">
+                <div class="activity-moreBtn">
+                    <a class="coolBeans" href="./active.html">더 보러 가기</a>
+                </div>
+            </a>
+        </div>
+        <img src="./image/wondercoven.png" class="article-coven">
+
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="sns">
+                <a href="https://www.instagram.com/code_bakery/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/codebakery/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://www.youtube.com/channel/UCLucvG2gSpd_FhqDXDr5zlQ"><i class="fab fa-youtube"></i></a>
+            </div>
+            <div class="footer-text">
+                <span>@2020 CODEBAKERY WEB TEAM<br></span>
+                <span>18기 &nbsp; WP 이혜원,황보률 HD 김연우</span>
+                <span>19기 &nbsp; WP 김정인,장정인,이승훈,신완희 HD 이수민</span>
+            </div>
+
+        </div>
+    </footer>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.loading').fadeOut(1000);
+        });
+    </script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-latest.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#introduce').click(function () {
+                var offset = $('.activity-title').offset(); //선택한 태그의 위치를 반환
+                //animate()메서드를 이용해서 선택한 태그의 스크롤 위치를 지정해서 0.4초 동안 부드럽게 해당 위치로 이동함 
+                $('html').animate({ scrollTop: offset.top }, 600);
+            });
+        });
+    </script>
+    <script src="./js/numbercount.js"></script>
+</body>
+
+</html>
